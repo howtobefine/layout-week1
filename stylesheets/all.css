@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: "SF Pro Text", "Microsoft JhengHei";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.font-sf {
+  font-family: "SF Pro Text";
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding: 40px 0 24px 0;
+  border-bottom: 2px solid #000;
+}
+
+.photo {
+  margin: 48px 0;
+}
+
+.profile h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+}
+
+.profile span {
+  display: inline-block;
+  font-size: 24px;
+  color: #a00404;
+  line-height: 39px;
+  vertical-align: text-bottom;
+}
+
+.profile ul {
+  font-size: 24px;
+  line-height: 33px;
+  margin: 16px 0 24px;
+}
+
+.ability ul {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 72px;
+}
+
+.education h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+}
+
+.education span {
+  display: inline-block;
+  font-size: 24px;
+  color: #a00404;
+  line-height: 39px;
+  vertical-align: text-bottom;
+}
+
+.education ul {
+  font-size: 24px;
+  line-height: 33px;
+  margin: 16px 0 72px;
+}
+
+.education li:first-child {
+  margin-bottom: 24px;
+}
+
+.skills {
+  background-color: #415165;
+  padding: 24px 102px 52px;
+  margin-bottom: 72px;
+  color: #fff;
+}
+
+.skills h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+}
+
+.skills span {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 39px;
+  vertical-align: text-bottom;
+}
+
+.skills ul {
+  position: relative;
+  white-space: nowrap;
+  position: relative;
+  padding: 40px 398px 0;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.skills ul::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 327px;
+  background-color: #96a9c4;
+  top: 40.5px;
+  left: 358px;
+}
+
+.skills li {
+  margin-bottom: 20px;
+}
+
+.skills li:last-child {
+  margin-bottom: 0;
+}
+
+.work h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+}
+
+.work span {
+  display: inline-block;
+  font-size: 24px;
+  color: #a00404;
+  line-height: 39px;
+  vertical-align: text-bottom;
+}
+
+.work-body {
+  position: relative;
+  padding: 16px 48px 72px;
+}
+
+.work-body::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 643px;
+  background-color: #96a9c4;
+  top: 16px;
+  left: 24px;
+}
+
+.work-body h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.work-body p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.work-body img {
+  margin: 8px 0;
+}
+
+.work-body li {
+  margin-bottom: 32px;
+  line-height: 33px;
+}
+
+.work-body li:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #415165;
+  color: #fff;
+}
+
+.contact {
+  padding: 24px 0 48px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+}
+
+.contact span {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 39px;
+  vertical-align: text-bottom;
+}
+
+.contact ul {
+  margin-top: 32px;
+}
+
+.contact li {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 16px;
+}
+
+.contact li:last-child {
+  margin-bottom: 0;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.contact a:hover {
+  opacity: 0.6;
+}
+
+.contact img {
+  display: inline-block;
+}
+
+.contact .ig {
+  margin: 0 24px;
+}
+/*# sourceMappingURL=all.css.map */
